@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE66734020234C42009A51FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66733F20234C42009A51FF /* AppDelegate.m */; };
+		DE66734320234C42009A51FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66734220234C42009A51FF /* ViewController.m */; };
+		DE66734620234C42009A51FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE66734420234C42009A51FF /* Main.storyboard */; };
+		DE66734820234C42009A51FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE66734720234C42009A51FF /* Assets.xcassets */; };
+		DE66734B20234C42009A51FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE66734920234C42009A51FF /* LaunchScreen.storyboard */; };
+		DE66734E20234C42009A51FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66734D20234C42009A51FF /* main.m */; };
+		DE66735820234C42009A51FF /* yemianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66735720234C42009A51FF /* yemianTests.m */; };
+		DE66736320234C42009A51FF /* yemianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66736220234C42009A51FF /* yemianUITests.m */; };
+		DE66737220234CB3009A51FF /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE66737120234CB3009A51FF /* oneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE66735420234C42009A51FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE66733320234C42009A51FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE66733A20234C42009A51FF;
+			remoteInfo = yemian;
+		};
+		DE66735F20234C42009A51FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE66733320234C42009A51FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE66733A20234C42009A51FF;
+			remoteInfo = yemian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE66733B20234C42009A51FF /* yemian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yemian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE66733E20234C42009A51FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE66733F20234C42009A51FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE66734120234C42009A51FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE66734220234C42009A51FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE66734520234C42009A51FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE66734720234C42009A51FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE66734A20234C42009A51FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE66734C20234C42009A51FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE66734D20234C42009A51FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE66735320234C42009A51FF /* yemianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yemianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE66735720234C42009A51FF /* yemianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yemianTests.m; sourceTree = "<group>"; };
+		DE66735920234C42009A51FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE66735E20234C42009A51FF /* yemianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yemianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE66736220234C42009A51FF /* yemianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yemianUITests.m; sourceTree = "<group>"; };
+		DE66736420234C42009A51FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE66737020234CB3009A51FF /* oneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		DE66737120234CB3009A51FF /* oneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE66733820234C42009A51FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE66735020234C42009A51FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE66735B20234C42009A51FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE66733220234C42009A51FF = {
+			isa = PBXGroup;
+			children = (
+				DE66737020234CB3009A51FF /* oneViewController.h */,
+				DE66737120234CB3009A51FF /* oneViewController.m */,
+				DE66733D20234C42009A51FF /* yemian */,
+				DE66735620234C42009A51FF /* yemianTests */,
+				DE66736120234C42009A51FF /* yemianUITests */,
+				DE66733C20234C42009A51FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE66733C20234C42009A51FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE66733B20234C42009A51FF /* yemian.app */,
+				DE66735320234C42009A51FF /* yemianTests.xctest */,
+				DE66735E20234C42009A51FF /* yemianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE66733D20234C42009A51FF /* yemian */ = {
+			isa = PBXGroup;
+			children = (
+				DE66733E20234C42009A51FF /* AppDelegate.h */,
+				DE66733F20234C42009A51FF /* AppDelegate.m */,
+				DE66734120234C42009A51FF /* ViewController.h */,
+				DE66734220234C42009A51FF /* ViewController.m */,
+				DE66734420234C42009A51FF /* Main.storyboard */,
+				DE66734720234C42009A51FF /* Assets.xcassets */,
+				DE66734920234C42009A51FF /* LaunchScreen.storyboard */,
+				DE66734C20234C42009A51FF /* Info.plist */,
+				DE66734D20234C42009A51FF /* main.m */,
+			);
+			path = yemian;
+			sourceTree = "<group>";
+		};
+		DE66735620234C42009A51FF /* yemianTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE66735720234C42009A51FF /* yemianTests.m */,
+				DE66735920234C42009A51FF /* Info.plist */,
+			);
+			path = yemianTests;
+			sourceTree = "<group>";
+		};
+		DE66736120234C42009A51FF /* yemianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE66736220234C42009A51FF /* yemianUITests.m */,
+				DE66736420234C42009A51FF /* Info.plist */,
+			);
+			path = yemianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE66733A20234C42009A51FF /* yemian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE66736720234C42009A51FF /* Build configuration list for PBXNativeTarget "yemian" */;
+			buildPhases = (
+				DE66733720234C42009A51FF /* Sources */,
+				DE66733820234C42009A51FF /* Frameworks */,
+				DE66733920234C42009A51FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yemian;
+			productName = yemian;
+			productReference = DE66733B20234C42009A51FF /* yemian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE66735220234C42009A51FF /* yemianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE66736A20234C42009A51FF /* Build configuration list for PBXNativeTarget "yemianTests" */;
+			buildPhases = (
+				DE66734F20234C42009A51FF /* Sources */,
+				DE66735020234C42009A51FF /* Frameworks */,
+				DE66735120234C42009A51FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE66735520234C42009A51FF /* PBXTargetDependency */,
+			);
+			name = yemianTests;
+			productName = yemianTests;
+			productReference = DE66735320234C42009A51FF /* yemianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE66735D20234C42009A51FF /* yemianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE66736D20234C42009A51FF /* Build configuration list for PBXNativeTarget "yemianUITests" */;
+			buildPhases = (
+				DE66735A20234C42009A51FF /* Sources */,
+				DE66735B20234C42009A51FF /* Frameworks */,
+				DE66735C20234C42009A51FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE66736020234C42009A51FF /* PBXTargetDependency */,
+			);
+			name = yemianUITests;
+			productName = yemianUITests;
+			productReference = DE66735E20234C42009A51FF /* yemianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE66733320234C42009A51FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = igem;
+				TargetAttributes = {
+					DE66733A20234C42009A51FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DE66735220234C42009A51FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE66733A20234C42009A51FF;
+					};
+					DE66735D20234C42009A51FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE66733A20234C42009A51FF;
+					};
+				};
+			};
+			buildConfigurationList = DE66733620234C42009A51FF /* Build configuration list for PBXProject "yemian" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE66733220234C42009A51FF;
+			productRefGroup = DE66733C20234C42009A51FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE66733A20234C42009A51FF /* yemian */,
+				DE66735220234C42009A51FF /* yemianTests */,
+				DE66735D20234C42009A51FF /* yemianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE66733920234C42009A51FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE66734B20234C42009A51FF /* LaunchScreen.storyboard in Resources */,
+				DE66734820234C42009A51FF /* Assets.xcassets in Resources */,
+				DE66734620234C42009A51FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE66735120234C42009A51FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE66735C20234C42009A51FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE66733720234C42009A51FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE66734320234C42009A51FF /* ViewController.m in Sources */,
+				DE66734E20234C42009A51FF /* main.m in Sources */,
+				DE66734020234C42009A51FF /* AppDelegate.m in Sources */,
+				DE66737220234CB3009A51FF /* oneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE66734F20234C42009A51FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE66735820234C42009A51FF /* yemianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE66735A20234C42009A51FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE66736320234C42009A51FF /* yemianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE66735520234C42009A51FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE66733A20234C42009A51FF /* yemian */;
+			targetProxy = DE66735420234C42009A51FF /* PBXContainerItemProxy */;
+		};
+		DE66736020234C42009A51FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE66733A20234C42009A51FF /* yemian */;
+			targetProxy = DE66735F20234C42009A51FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE66734420234C42009A51FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE66734520234C42009A51FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE66734920234C42009A51FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE66734A20234C42009A51FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE66736520234C42009A51FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE66736620234C42009A51FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE66736820234C42009A51FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yemian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.yemian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE66736920234C42009A51FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yemian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.yemian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE66736B20234C42009A51FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yemianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.yemianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yemian.app/yemian";
+			};
+			name = Debug;
+		};
+		DE66736C20234C42009A51FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yemianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.yemianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yemian.app/yemian";
+			};
+			name = Release;
+		};
+		DE66736E20234C42009A51FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yemianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.yemianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yemian;
+			};
+			name = Debug;
+		};
+		DE66736F20234C42009A51FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yemianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.yemianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yemian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE66733620234C42009A51FF /* Build configuration list for PBXProject "yemian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE66736520234C42009A51FF /* Debug */,
+				DE66736620234C42009A51FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE66736720234C42009A51FF /* Build configuration list for PBXNativeTarget "yemian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE66736820234C42009A51FF /* Debug */,
+				DE66736920234C42009A51FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE66736A20234C42009A51FF /* Build configuration list for PBXNativeTarget "yemianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE66736B20234C42009A51FF /* Debug */,
+				DE66736C20234C42009A51FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE66736D20234C42009A51FF /* Build configuration list for PBXNativeTarget "yemianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE66736E20234C42009A51FF /* Debug */,
+				DE66736F20234C42009A51FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE66733320234C42009A51FF /* Project object */;
+}
